@@ -1,0 +1,31 @@
+{
+  "name": "shadowcolors",
+  "displayName": "Shadow Colors",
+  "description": "A Theme for Shadows",
+  "publisher": "techharvesting",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/techharvesting/shadowcolors"
+  },
+  "keywords": [
+    "dark theme",
+    "shadow theme",
+    "shadow colors"
+  ],
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.79.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Shadow Colors",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Shadow Colors-color-theme.json"
+      }
+    ]
+  }
+}
